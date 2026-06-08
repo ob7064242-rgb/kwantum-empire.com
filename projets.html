@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projets — Kwantum Empire</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header id="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-ke"><svg viewBox="0 0 24 24" fill="none"><path d="M3 4L3 20M3 12L10 4M3 12L10 20" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 4H20M13 12H19M13 20H20" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="logo-name">KWANTUM<span>EMPIRE</span></div>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Accueil</a><a href="services.html">Services</a><a href="projets.html">Projets</a>
+      <a href="a-propos.html">À propos</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn btn-or">Audit gratuit</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:14px;">
+      <div class="lang-toggle"><button data-lang="fr" class="active">FR</button><button data-lang="en">EN</button></div>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="mobile-nav">
+    <a href="index.html">Accueil</a><a href="services.html">Services</a><a href="projets.html">Projets</a>
+    <a href="a-propos.html">À propos</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<div class="page-banner">
+  <div class="container">
+    <div class="section-label">Nos réalisations</div>
+    <h1>NOS <span class="or">PROJETS</span></h1>
+    <p style="color:var(--gris-text);margin-top:10px;font-size:.96rem;">Des résultats concrets pour des marques ambitieuses.</p>
+    <div class="breadcrumb"><a href="index.html">Accueil</a><span class="sep">/</span><span>Projets</span></div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <!-- Filtres -->
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">Tous</button>
+      <button class="filter-btn" data-filter="seo">SEO</button>
+      <button class="filter-btn" data-filter="ads">Ads</button>
+      <button class="filter-btn" data-filter="social">Social</button>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Nova Énergie -->
+      <div class="project-card fade-in" data-cat="seo">
+        <div class="project-visual" style="background:linear-gradient(135deg,#0a1a0a,#1a2e1a);">
+          <i class="fa-solid fa-bolt project-visual-icon"></i>
+          <div class="project-overlay">
+            <span>Résultat clé</span>
+            <div class="result">+85%</div>
+            <span>Trafic organique</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span class="project-tag">SEO</span><span class="project-tag">Contenu</span></div>
+          <div class="project-client">Nova Énergie</div>
+          <div class="project-result">+85% de trafic organique en 5 mois — positionnement top 3 sur 40 mots-clés stratégiques.</div>
+        </div>
+      </div>
+
+      <!-- Luxe & Couture -->
+      <div class="project-card fade-in" data-cat="social">
+        <div class="project-visual" style="background:linear-gradient(135deg,#1a0a1a,#2e1a2e);">
+          <i class="fa-solid fa-gem project-visual-icon"></i>
+          <div class="project-overlay">
+            <span>Résultat clé</span>
+            <div class="result">ROI x3</div>
+            <span>En 4 mois</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span class="project-tag">Social Ads</span><span class="project-tag">Meta</span></div>
+          <div class="project-client">Luxe & Couture</div>
+          <div class="project-result">ROI multiplié par 3 en 4 mois — campagnes Meta Ads ultra-ciblées sur l'audience luxe.</div>
+        </div>
+      </div>
+
+      <!-- Startup Finéo -->
+      <div class="project-card fade-in" data-cat="ads">
+        <div class="project-visual" style="background:linear-gradient(135deg,#0a0f1a,#1a2340);">
+          <i class="fa-solid fa-chart-bar project-visual-icon"></i>
+          <div class="project-overlay">
+            <span>Résultat clé</span>
+            <div class="result">-40%</div>
+            <span>Coût par lead</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span class="project-tag">Google Ads</span><span class="project-tag">SEA</span></div>
+          <div class="project-client">Startup Finéo</div>
+          <div class="project-result">-40% du coût par lead en 3 mois — restructuration complète des campagnes Google Ads.</div>
+        </div>
+      </div>
+
+      <!-- Éco Habitat -->
+      <div class="project-card fade-in" data-cat="seo">
+        <div class="project-visual" style="background:linear-gradient(135deg,#0a1510,#1a3020);">
+          <i class="fa-solid fa-house-tree project-visual-icon"></i>
+          <div class="project-overlay">
+            <span>Résultat clé</span>
+            <div class="result">Page 1</div>
+            <span>Google en 6 mois</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span class="project-tag">SEO</span><span class="project-tag">Contenu</span></div>
+          <div class="project-client">Éco Habitat</div>
+          <div class="project-result">1re page Google en 6 mois — stratégie SEO complète + 48 articles de blog optimisés.</div>
+        </div>
+      </div>
+
+      <!-- Dynamiq Sport -->
+      <div class="project-card fade-in" data-cat="social">
+        <div class="project-visual" style="background:linear-gradient(135deg,#1a0a00,#3a1e00);">
+          <i class="fa-solid fa-dumbbell project-visual-icon"></i>
+          <div class="project-overlay">
+            <span>Résultat clé</span>
+            <div class="result">+220%</div>
+            <span>Engagement Instagram</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span class="project-tag">Social Media</span><span class="project-tag">Influence</span></div>
+          <div class="project-client">Dynamiq Sport</div>
+          <div class="project-result">+220% d'engagement Instagram en 3 mois — rebranding éditorial complet et micro-influence.</div>
+        </div>
+      </div>
+
+      <!-- Artisan Déco -->
+      <div class="project-card fade-in" data-cat="ads">
+        <div class="project-visual" style="background:linear-gradient(135deg,#1a1500,#3a2f00);">
+          <i class="fa-solid fa-paintbrush project-visual-icon"></i>
+          <div class="project-overlay">
+            <span>Résultat clé</span>
+            <div class="result">x4.8</div>
+            <span>ROAS Google Ads</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span class="project-tag">Google Ads</span><span class="project-tag">Shopping</span></div>
+          <div class="project-client">Artisan Déco</div>
+          <div class="project-result">ROAS x4.8 — campagnes Shopping Google optimisées avec segmentation produit avancée.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="cta-banner">
+  <div class="container">
+    <div class="cta-inner">
+      <div><h2>Votre projet mérite <span class="or">les mêmes résultats</span></h2><p>Parlons de vos objectifs — audit gratuit sous 24h.</p></div>
+      <a href="contact.html" class="btn btn-or" style="font-size:1rem;padding:16px 40px;white-space:nowrap;">Démarrer un projet <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about"><a href="index.html" class="logo"><div class="logo-ke"><svg viewBox="0 0 24 24" fill="none"><path d="M3 4L3 20M3 12L10 4M3 12L10 20" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 4H20M13 12H19M13 20H20" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="logo-name">KWANTUM<span>EMPIRE</span></div></a><p>Agence marketing digital premium à Montréal.</p><div class="footer-social"><a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i></a><a href="#" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a><a href="#" class="social-btn"><i class="fa-brands fa-x-twitter"></i></a></div></div>
+      <div class="footer-col"><h4>Navigation</h4><ul><li><a href="index.html">Accueil</a></li><li><a href="services.html">Services</a></li><li><a href="projets.html">Projets</a></li><li><a href="a-propos.html">À propos</a></li><li><a href="blog.html">Blog</a></li></ul></div>
+      <div class="footer-col"><h4>Services</h4><ul><li><a href="services.html#seo">SEO</a></li><li><a href="services.html#social">Social Media</a></li><li><a href="services.html#ads">Google & Meta Ads</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul><li><a href="mailto:hello@kwantum-empire.com">hello@kwantum-empire.com</a></li><li><a href="tel:+15142001337">+1 (514) 200-1337</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2025 Kwantum Empire. Tous droits réservés.</span><span>Conçu pour dominer.</span></div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

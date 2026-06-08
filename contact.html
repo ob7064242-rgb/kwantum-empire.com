@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Kwantum Empire</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header id="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <div class="logo-ke"><svg viewBox="0 0 24 24" fill="none"><path d="M3 4L3 20M3 12L10 4M3 12L10 20" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 4H20M13 12H19M13 20H20" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="logo-name">KWANTUM<span>EMPIRE</span></div>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Accueil</a><a href="services.html">Services</a><a href="projets.html">Projets</a>
+      <a href="a-propos.html">À propos</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn btn-or">Audit gratuit</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:14px;">
+      <div class="lang-toggle"><button data-lang="fr" class="active">FR</button><button data-lang="en">EN</button></div>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="mobile-nav">
+    <a href="index.html">Accueil</a><a href="services.html">Services</a><a href="projets.html">Projets</a>
+    <a href="a-propos.html">À propos</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<div class="page-banner">
+  <div class="container">
+    <div class="section-label">Parlons-nous</div>
+    <h1><span class="or">CONTACT</span></h1>
+    <p style="color:var(--gris-text);margin-top:10px;font-size:.96rem;">Un audit gratuit, une question, un projet — on vous répond sous 24h.</p>
+    <div class="breadcrumb"><a href="index.html">Accueil</a><span class="sep">/</span><span>Contact</span></div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Infos -->
+      <div>
+        <h2>Prêt à <span class="or">dominer</span> votre marché ?</h2>
+        <p style="color:var(--gris-text);margin:18px 0 36px;line-height:1.8;">Que vous souhaitiez un audit SEO, lancer une campagne Ads ou repenser votre stratégie digitale — notre équipe est là. Zéro engagement, 100% de valeur ajoutée dès le premier échange.</p>
+
+        <div class="cinfo-item">
+          <div class="cinfo-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div class="cinfo-text"><strong>Email</strong><span>hello@kwantum-empire.com</span></div>
+        </div>
+        <div class="cinfo-item">
+          <div class="cinfo-icon"><i class="fa-solid fa-phone"></i></div>
+          <div class="cinfo-text"><strong>Téléphone</strong><span>+1 (514) 200-1337</span></div>
+        </div>
+        <div class="cinfo-item">
+          <div class="cinfo-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="cinfo-text"><strong>Adresse</strong><span>1001 Boul. de Maisonneuve O.<br>Montréal, QC H3A 3C8</span></div>
+        </div>
+        <div class="cinfo-item">
+          <div class="cinfo-icon"><i class="fa-solid fa-clock"></i></div>
+          <div class="cinfo-text"><strong>Heures d'ouverture</strong><span>Lun – Ven : 9h00 – 18h00</span></div>
+        </div>
+
+        <div class="social-row">
+          <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" class="social-btn"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" class="social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+
+        <div class="contact-map">
+          <iframe
+            src="https://maps.google.com/maps?q=1001+Boulevard+de+Maisonneuve+Ouest+Montreal&t=m&z=13&output=embed"
+            title="Kwantum Empire" allowfullscreen loading="lazy">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Formulaire -->
+      <div class="contact-form-card fade-in">
+        <h3>Envoyez-nous un message</h3>
+        <p>Réponse garantie sous 24 heures ouvrables.</p>
+        <form id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="prenom">Prénom *</label>
+              <input type="text" id="prenom" name="prenom" placeholder="Jean" required>
+              <div class="form-error">Ce champ est requis</div>
+            </div>
+            <div class="form-group">
+              <label for="nom">Nom *</label>
+              <input type="text" id="nom" name="nom" placeholder="Dupont" required>
+              <div class="form-error">Ce champ est requis</div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" placeholder="jean@email.com" required>
+              <div class="form-error">Ce champ est requis</div>
+            </div>
+            <div class="form-group">
+              <label for="tel">Téléphone</label>
+              <input type="tel" id="tel" name="tel" placeholder="+1 (514) 000-0000">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="objet">Objet *</label>
+            <select id="objet" name="objet" required>
+              <option value="">Choisir un objet…</option>
+              <option>Demande d'audit SEO gratuit</option>
+              <option>Campagne Google Ads</option>
+              <option>Campagne Meta Ads</option>
+              <option>Social Media Management</option>
+              <option>Stratégie digitale complète</option>
+              <option>Autre demande</option>
+            </select>
+            <div class="form-error">Ce champ est requis</div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="5" placeholder="Décrivez votre projet, vos objectifs et vos contraintes…" required></textarea>
+            <div class="form-error">Ce champ est requis</div>
+          </div>
+          <button type="submit" class="btn btn-or" style="width:100%;justify-content:center;font-size:1rem;padding:15px;">
+            <i class="fa-solid fa-rocket"></i> Envoyer le message
+          </button>
+          <div class="form-success" id="form-success">
+            <i class="fa-solid fa-check-circle"></i> Votre message a bien été envoyé ! Nous vous répondrons sous 24h.
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ rapide -->
+<section class="section" style="background:var(--noir-card);border-top:1px solid var(--noir-border);padding-top:72px;padding-bottom:72px;">
+  <div class="container">
+    <div class="text-center" style="margin-bottom:48px;">
+      <div class="section-label" style="justify-content:center;">Questions fréquentes</div>
+      <h2 class="section-title">Vous avez des <span class="or">questions ?</span></h2>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:900px;margin:0 auto;">
+      <div style="background:var(--noir-mid);border:1px solid var(--noir-border);border-radius:var(--radius-lg);padding:24px;">
+        <h4 style="margin-bottom:8px;color:var(--or);">L'audit est vraiment gratuit ?</h4>
+        <p style="font-size:.87rem;color:var(--gris-text);">Oui, sans condition. Nous analysons votre situation actuelle et vous présentons nos recommandations — sans engagement de votre part.</p>
+      </div>
+      <div style="background:var(--noir-mid);border:1px solid var(--noir-border);border-radius:var(--radius-lg);padding:24px;">
+        <h4 style="margin-bottom:8px;color:var(--or);">Quel est le budget minimum ?</h4>
+        <p style="font-size:.87rem;color:var(--gris-text);">Nous travaillons avec des budgets à partir de 1 500$/mois pour nos services gérés. Contactez-nous pour une estimation personnalisée.</p>
+      </div>
+      <div style="background:var(--noir-mid);border:1px solid var(--noir-border);border-radius:var(--radius-lg);padding:24px;">
+        <h4 style="margin-bottom:8px;color:var(--or);">Quels résultats puis-je espérer ?</h4>
+        <p style="font-size:.87rem;color:var(--gris-text);">Nous fixons des KPIs dès le départ. Nos clients voient en moyenne +180% de trafic SEO dans les 6 premiers mois et un ROAS x3-5 sur les campagnes Ads.</p>
+      </div>
+      <div style="background:var(--noir-mid);border:1px solid var(--noir-border);border-radius:var(--radius-lg);padding:24px;">
+        <h4 style="margin-bottom:8px;color:var(--or);">Combien de temps pour voir des résultats ?</h4>
+        <p style="font-size:.87rem;color:var(--gris-text);">Les campagnes Ads donnent des résultats en quelques semaines. Le SEO prend 3 à 6 mois pour des effets durables. Nous jouons sur les deux tableaux.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about"><a href="index.html" class="logo"><div class="logo-ke"><svg viewBox="0 0 24 24" fill="none"><path d="M3 4L3 20M3 12L10 4M3 12L10 20" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 4H20M13 12H19M13 20H20" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="logo-name">KWANTUM<span>EMPIRE</span></div></a><p>Agence marketing digital premium à Montréal.</p><div class="footer-social"><a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i></a><a href="#" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a><a href="#" class="social-btn"><i class="fa-brands fa-x-twitter"></i></a></div></div>
+      <div class="footer-col"><h4>Navigation</h4><ul><li><a href="index.html">Accueil</a></li><li><a href="services.html">Services</a></li><li><a href="projets.html">Projets</a></li><li><a href="a-propos.html">À propos</a></li><li><a href="blog.html">Blog</a></li></ul></div>
+      <div class="footer-col"><h4>Services</h4><ul><li><a href="services.html#seo">SEO</a></li><li><a href="services.html#social">Social Media</a></li><li><a href="services.html#ads">Ads</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul><li><a href="mailto:hello@kwantum-empire.com">hello@kwantum-empire.com</a></li><li><a href="tel:+15142001337">+1 (514) 200-1337</a></li><li><a href="#">Montréal, QC H3A 3C8</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2025 Kwantum Empire. Tous droits réservés.</span><span>Conçu pour dominer.</span></div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
